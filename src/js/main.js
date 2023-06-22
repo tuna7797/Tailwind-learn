@@ -20,8 +20,8 @@
       logoPic.insertAdjacentHTML(
         "afterbegin",
         [
-          '<source srcset="./images/euid-logo-dark.png" media="(prefers-color-scheme: dark)" />',
-          '<source srcset="./images/euid-logo.png" media="(prefers-color-scheme: light)" />',
+          '<source srcset="./images/euid-logo-dark.svg" media="(prefers-color-scheme: dark)" />',
+          '<source srcset="./images/euid-logo.svg" media="(prefers-color-scheme: light)" />',
         ].join("")
       );
       const theme = e.matches ? "dark" : "light";
@@ -45,10 +45,10 @@
     });
 
     if (htmlNode.classList.contains("dark")) {
-      logoImg.setAttribute("src", "./images/euid-logo-dark.png");
+      logoImg.setAttribute("src", "./images/euid-logo-dark.svg");
       toggleThemeButton.textContent = "라이트모드 보기";
     } else {
-      logoImg.setAttribute("src", "./images/euid-logo.png");
+      logoImg.setAttribute("src", "./images/euid-logo.svg");
       toggleThemeButton.textContent = "다크모드 보기";
     }
   }

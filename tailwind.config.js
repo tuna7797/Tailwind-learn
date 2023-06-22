@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "checkbox-default": "url('../images/checkbox-default.png')",
-        "checkbox-checked": "url('../images/checkbox-checked.png')",
+        "checkbox-default": "url('../images/checkbox-default.svg')",
+        "checkbox-checked": "url('../images/checkbox-checked.svg')",
       }),
       colors: {
         white: "#ffffff",

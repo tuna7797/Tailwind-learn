@@ -672,7 +672,7 @@ video {
 }
 
 .bg-checkbox-default {
-  background-image: url('../images/checkbox-default.svg');
+  background-image: url('../images/checkbox-default.png');
 }
 
 .bg-left {
@@ -759,14 +759,14 @@ body {
 }
 
 .auto-login:checked + label {
-  background-image: url('../images/checkbox-checked.svg');
+  background-image: url('../images/checkbox-checked.png');
   background-position: left;
   background-repeat: no-repeat;
   padding-left: 1.5rem;
 }
 
 .hover\:bg-checkbox-checked:hover {
-  background-image: url('../images/checkbox-checked.svg');
+  background-image: url('../images/checkbox-checked.png');
 }
 
 .focus\:border-black:focus {
