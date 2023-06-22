@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  font-size: 14px;
-}
-
 .auto-login:checked + label {
   @apply pl-6 bg-left bg-no-repeat bg-checkbox-checked;
+}
+
+.form-input{
+  @apply border border-gray5 w-full p-4 rounded-md outline-none;
+}
+
+.form-input:focus{
+  @apply focus:border-black dark:focus:border-secondary;
 }
